@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -17,6 +17,16 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="./assets/theme_light.png"
+              src-light="./assets/theme_light.png"
+              src-dark="./assets/theme_dark.png"
+              alt="Color them icon"
+            />
+          </li>
         </ul>
       </div>
     </nav>
@@ -33,6 +43,16 @@
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <img
+              id="modeToggle2"
+              class="icon color-icon"
+              src="./assets/theme_light.png"
+              src-light="./assets/theme_light.png"
+              src-dark="./assets/theme_dark.png"
+              alt="Color them icon"
+            />
+          </li>
         </div>
       </div>
     </nav>
@@ -43,7 +63,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Aayush Panchal</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2">Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -52,21 +72,25 @@
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
+            Contact Info
           </button>
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="./assets/linkedin_light.png"
+            src-light="./assets/linkedin_light.png"
+            src-dark="./assets/linkedin_dark.png"
             alt="My LinkedIn profile"
-            class="icon"
+            class="icon linkedin-icon"
             onclick="location.href='https://linkedin.com/'"
           />
           <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
+            src="./assets/github_light.png"
+            src-light="./assets/github_light.png"
+            src-dark="./assets/github_dark.png"
+            alt="My github profile"
+            class="icon github-icon"
+            onclick="location.href='https://github.com/SparkyGotDrip'"
           />
         </div>
       </div>
@@ -86,7 +110,9 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
+                src="./assets/experience_light.png"
+                src-light="./assets/experience_light.png"
+                src-dark="./assets/experience_dark.png"
                 alt="Experience icon"
                 class="icon"
               />
@@ -95,12 +121,14 @@
             </div>
             <div class="details-container">
               <img
-                src="./assets/education.png"
+                src="./assets/education_light.png"
+                src-light="./assets/education_light.png"
+                src-dark="./assets/education_dark.png"
                 alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Diploma in IT<br /></p>
+              <p>Diploma in IT</p>
             </div>
           </div>
           <div class="text-container">
@@ -109,13 +137,15 @@
               eagerly diving into upcoming projects. With a knack for innovation 
               and a hunger for learning, you thrive in the dynamic world of technology. 
               Your enthusiasm drives you to create impactful solutions and 
-              embrace the challenges of tomorrow's tech landscape.
+              embrace the challenges of tomorrow's tech landscape!
             </p>
           </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/arrow_light.png"
+        src-light="./assets/arrow_light.png"
+        src-dark="./assets/arrow_dark.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -131,7 +161,9 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -142,7 +174,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -153,7 +187,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -164,7 +200,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -175,7 +213,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -186,13 +226,15 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
                   <h3>Material UI</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
@@ -202,7 +244,9 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -213,7 +257,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -224,7 +270,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -235,7 +283,9 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark_light.png"
+                  src-light="./assets/checkmark_light.png"
+                  src-dark="./assets/checkmark_dark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -249,7 +299,9 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/arrow_light.png"
+        src-light="./assets/arrow_light.png"
+        src-dark="./assets/arrow_dark.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
@@ -272,13 +324,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Live Demo
               </button>
@@ -296,13 +348,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Live Demo
               </button>
@@ -320,13 +372,13 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/SparkyGotDrip'"
               >
                 Live Demo
               </button>
@@ -335,7 +387,9 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="./assets/arrow_light.png"
+        src-light="./assets/arrow_light.png"
+        src-dark="./assets/arrow_dark.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
@@ -347,19 +401,24 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/email.png"
+            src="./assets/email_light.png"
+            src-light="./assets/email_light.png"
+            src-dark="./assets/email_dark.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:aayushpanchal2910@gmail.com">aayushpanchal2910@gmail.com</a></p>
+          <p><a href="mailto:aayushpanchal2910@gmail.com">aayushpanchl2910@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/instagram.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
+            src="./assets/instagram_dark.png"
+            src-light="./assets/instagram_dark.png"
+            src-dark="./assets/instagram_light.png"
+            alt="My LinkedIn profile"
+            class="icon linkedin-icon"
+            onclick="location.href='https://linkedin.com/'"
           />
-          <p><a href="https://www.instagram.com/aayush.zip?igsh=ajhlZjJtc3BrOXQy/">Instagram</a></p>
+          <p><a href="https://www.instagram.com/aayush.zip/">Instagram</a></p>
         </div>
       </div>
     </section>
